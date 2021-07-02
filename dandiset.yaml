@@ -5,21 +5,8 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 141856436428
-  numberOfFiles: 4435
-  numberOfSubjects: 1040
-  schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: 20200611_AIBS_mouse (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
 description: Allen Institute June 2020 Mouse PatchSeq icephys data
 id: DANDI:000020/draft
