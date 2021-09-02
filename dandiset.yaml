@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000020
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
+about: []
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -24,14 +25,29 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: 20200611_AIBS_mouse (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
+contributor:
+- contactPoint: []
+  identifier: https://ror.org/03cpe7c52
+  includeInCitation: false
+  name: Allen Institute
+  roleName: []
+  schemaKey: Organization
+dateCreated: '2020-04-30T00:53:01.664000+00:00'
 description: Allen Institute June 2020 Mouse PatchSeq icephys data
+ethicsApproval: []
 id: DANDI:000020/draft
 identifier: DANDI:000020
+keywords: []
+license: []
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000020/versions/draft/assets/
 name: 20200611_AIBS_mouse
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000020/draft
 version: draft
+wasGeneratedBy: []
