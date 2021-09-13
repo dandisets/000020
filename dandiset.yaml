@@ -2,7 +2,9 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000020
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000411
+  name: visual cortex
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -24,26 +26,52 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: 20200611_AIBS_mouse (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
+citation: Allen Institute for Brain Science (2021) Patch-seq recordings from mouse
+  visual cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
 contributor:
-- contactPoint: []
-  identifier: https://ror.org/03cpe7c52
+- affiliation:
+  - identifier: https://ror.org/00dcv1019
+    name: Allen Institute for Brain Science
+    schemaKey: Affiliation
+  email: nathang@alleninstitute.org
+  identifier: 0000-0001-8429-4090
   includeInCitation: false
-  name: Allen Institute
+  name: Gouwens, Nathan
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/00dcv1019
+  includeInCitation: true
+  name: Allen Institute for Brain Science
   roleName: []
   schemaKey: Organization
+  url: https://alleninstitute.org
 dateCreated: '2020-04-30T00:53:01.664000+00:00'
-description: Allen Institute June 2020 Mouse PatchSeq icephys data
+description: Whole-cell Patch-seq recordings from neurons of the mouse visual cortex
+  from the Allen Institute for Brain Science, released in June 2020. The majority
+  of cells in this dataset are GABAergic interneurons, but there are also a small
+  number of glutamatergic neurons from layer 2/3 of the mouse visual cortex.
 ethicsApproval: []
 id: DANDI:000020/draft
 identifier: DANDI:000020
-keywords: []
-license: []
+keywords:
+- Patch-seq
+- mouse
+- visual cortex
+- interneuron
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000020/versions/draft/assets/
-name: 20200611_AIBS_mouse
-protocol: []
-relatedResource: []
+name: Patch-seq recordings from mouse visual cortex
+protocol:
+- https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+relatedResource:
+- name: Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic
+    Cells
+  relation: dcite:IsSupplementTo
+  url: https://www.sciencedirect.com/science/article/pii/S009286742031254X
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
