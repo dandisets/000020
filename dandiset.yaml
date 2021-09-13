@@ -27,7 +27,7 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: Allen Institute for Brain Science (2021) Patch-seq recordings from mouse
-  visual cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
+  visual cortex (Version 0.210913.1639) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000020/0.210913.1639
 contributor:
 - affiliation:
   - identifier: https://ror.org/00dcv1019
@@ -48,12 +48,14 @@ contributor:
   schemaKey: Organization
   url: https://alleninstitute.org
 dateCreated: '2020-04-30T00:53:01.664000+00:00'
+datePublished: '2021-09-13T16:39:34.589079+00:00'
 description: Whole-cell Patch-seq recordings from neurons of the mouse visual cortex
   from the Allen Institute for Brain Science, released in June 2020. The majority
   of cells in this dataset are GABAergic interneurons, but there are also a small
   number of glutamatergic neurons from layer 2/3 of the mouse visual cortex.
+doi: 10.48324/dandi.000020/0.210913.1639
 ethicsApproval: []
-id: DANDI:000020/draft
+id: DANDI:000020/0.210913.1639
 identifier: DANDI:000020
 keywords:
 - Patch-seq
@@ -63,10 +65,22 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000020/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000020/0.210913.1639/assets.yaml
 name: Patch-seq recordings from mouse visual cortex
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+publishedBy:
+  endDate: '2021-09-13T16:39:34.589079+00:00'
+  id: urn:uuid:cf363ec8-9e1b-4fd1-8e7c-d69e61739d48
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-09-13T16:39:34.589079+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0800ca82-d8a4-4ed7-9896-9c9b773db26b
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic
     Cells
@@ -76,6 +90,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000020/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000020/0.210913.1639
+version: 0.210913.1639
 wasGeneratedBy: []
