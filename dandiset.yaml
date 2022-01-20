@@ -28,7 +28,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: Allen Institute for Brain Science (2021) Patch-seq recordings from mouse
+citation: Allen Institute for Brain Science (2022) Patch-seq recordings from mouse
   visual cortex (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000020/draft
 contributor:
 - affiliation:
